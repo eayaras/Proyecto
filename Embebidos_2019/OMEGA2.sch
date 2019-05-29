@@ -38,9 +38,9 @@ RST_BTN
 Text Label 10800 950  0    50   ~ 0
 RST_BTN
 Text Label 5750 4000 2    50   ~ 0
-I2C_SCL
+I2C_OM0
 Text Label 5750 4150 2    50   ~ 0
-I2C_SDA
+I2C_OM1
 Wire Wire Line
 	5350 4000 5750 4000
 Wire Wire Line
@@ -137,30 +137,6 @@ Wire Wire Line
 	9000 3900 8750 3900
 Text Notes 9700 2600 0    59   ~ 12
 USB
-Text Label 3150 2100 0    50   ~ 0
-TMS
-Text Label 3150 2250 0    50   ~ 0
-TCK
-Text Label 3150 2400 0    50   ~ 0
-TDI
-Text Label 3150 2550 0    50   ~ 0
-TDO
-Text Label 3150 2700 0    50   ~ 0
-TRST
-Wire Wire Line
-	3150 2100 3450 2100
-Wire Wire Line
-	3450 2250 3150 2250
-Wire Wire Line
-	3150 2400 3450 2400
-Wire Wire Line
-	3450 2550 3150 2550
-Wire Wire Line
-	3150 2700 3450 2700
-Text Label 3150 2850 0    50   ~ 0
-NRST
-Wire Wire Line
-	3450 2850 3150 2850
 Wire Wire Line
 	4350 4700 4350 4850
 Wire Wire Line
@@ -297,7 +273,7 @@ $EndComp
 Wire Wire Line
 	8750 2800 8750 3600
 Wire Wire Line
-	8750 2800 9050 2800
+	8750 2800 8850 2800
 Wire Wire Line
 	9050 2950 9050 2800
 Wire Wire Line
@@ -423,13 +399,13 @@ F 3 "~" H 3050 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 2550 3300 0    50   ~ 0
-MISO
+SPI_OM_1
 Text Label 2550 3450 0    50   ~ 0
-MOSI
+SPI_OM_0
 Text Label 2550 3600 0    50   ~ 0
-SPI_CLK
+SPI_OM_2
 Text Label 2550 3750 0    50   ~ 0
-SPI_CS
+SPI_OM_3
 Wire Wire Line
 	2900 3300 2550 3300
 Wire Wire Line
@@ -540,7 +516,7 @@ Entry Wire Line
 Wire Bus Line
 	3350 5850 3550 5850
 Text HLabel 3350 5850 0    50   BiDi ~ 0
-SPI_OM_(3..0)
+SPI_OM_[3..0]
 Text Label 3800 6050 0    50   ~ 0
 SPI_OM_0
 Text Label 3800 6150 0    50   ~ 0
@@ -549,20 +525,6 @@ Text Label 3800 6250 0    50   ~ 0
 SPI_OM_2
 Text Label 3800 6350 0    50   ~ 0
 SPI_OM_3
-Text Label 4250 6150 0    50   ~ 0
-MISO
-Text Label 4250 6050 0    50   ~ 0
-MOSI
-Text Label 4250 6250 0    50   ~ 0
-SPI_CLK
-Text Label 4250 6350 0    50   ~ 0
-SPI_CS
-Wire Wire Line
-	3650 6050 4250 6050
-Wire Wire Line
-	3650 6150 4250 6150
-Wire Wire Line
-	3650 6250 4250 6250
 Entry Wire Line
 	5200 5950 5300 6050
 Entry Wire Line
@@ -574,67 +536,21 @@ I2C_OM0
 Text Label 5400 6150 0    50   ~ 0
 I2C_OM1
 Text HLabel 5050 5850 0    50   BiDi ~ 0
-I2C_OM(1..0)
-Entry Wire Line
-	6950 5850 7050 5950
-Entry Wire Line
-	6950 5950 7050 6050
-Entry Wire Line
-	6950 6050 7050 6150
-Entry Wire Line
-	6950 6150 7050 6250
-Entry Wire Line
-	6950 6250 7050 6350
-Entry Wire Line
-	6950 6350 7050 6450
-Wire Bus Line
-	6800 5800 6950 5800
+I2C_OM[1..0]
 Text Label 7150 5950 0    50   ~ 0
-JTAG_OM0
+JTAGOM0
 Text Label 7150 6050 0    50   ~ 0
-JTAG_OM1
+JTAGOM1
 Text Label 7150 6150 0    50   ~ 0
-JTAG_OM2
+JTAGOM2
 Text Label 7150 6250 0    50   ~ 0
-JTAG_OM3
+JTAGOM3
 Text Label 7150 6350 0    50   ~ 0
-JTAG_OM4
+JTAGOM4
 Text Label 7150 6450 0    50   ~ 0
-JTAG_OM5
+JTAGOM5
 Text HLabel 6800 5800 0    50   BiDi ~ 0
-JTAG_OM(5..0)
-Text Label 6100 6050 2    50   ~ 0
-I2C_SCL
-Text Label 6100 6150 2    50   ~ 0
-I2C_SDA
-Wire Wire Line
-	5300 6050 6100 6050
-Wire Wire Line
-	5300 6150 6100 6150
-Text Label 7650 5950 0    50   ~ 0
-TMS
-Text Label 7650 6050 0    50   ~ 0
-TCK
-Text Label 7650 6150 0    50   ~ 0
-TDI
-Text Label 7650 6250 0    50   ~ 0
-TDO
-Text Label 7650 6350 0    50   ~ 0
-TRST
-Text Label 7650 6450 0    50   ~ 0
-NRST
-Wire Wire Line
-	7050 5950 7650 5950
-Wire Wire Line
-	7050 6050 7650 6050
-Wire Wire Line
-	7050 6150 7650 6150
-Wire Wire Line
-	7050 6250 7650 6250
-Wire Wire Line
-	7050 6350 7650 6350
-Wire Wire Line
-	7050 6450 7650 6450
+JTAGOM[5..0]
 NoConn ~ 3450 4200
 $Comp
 L power:Earth #PWR0101
@@ -758,12 +674,130 @@ F 3 "~" H 1600 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 3850 1600 3800
+Text Notes 2300 3450 0    50   ~ 0
+MOSI
+Text Notes 2300 3300 0    50   ~ 0
+MISO\n
+Text Notes 2350 3600 0    50   ~ 0
+CLK
+Text Notes 2350 3750 0    50   ~ 0
+CS
 Wire Wire Line
-	3650 6350 4250 6350
+	3800 6050 3650 6050
+Wire Wire Line
+	3800 6150 3650 6150
+Wire Wire Line
+	3800 6250 3650 6250
+Wire Wire Line
+	3800 6350 3650 6350
+Text Notes 5800 4000 0    50   ~ 0
+SCL
+Text Notes 5800 4150 0    50   ~ 0
+SDA\n
+Text Notes 2750 2100 0    50   ~ 0
+TMS\n
+Text Notes 2750 2250 0    50   ~ 0
+TCK\n
+Text Notes 2750 2400 0    50   ~ 0
+TDI
+Text Notes 2750 2550 0    50   ~ 0
+TDO\n
+Text Notes 2750 2700 0    50   ~ 0
+TRST\n
+Text Notes 2700 2850 0    50   ~ 0
+NRST\n
+Wire Wire Line
+	7150 5950 7050 5950
+Wire Wire Line
+	7150 6050 7050 6050
+Wire Wire Line
+	7150 6150 7050 6150
+Wire Wire Line
+	7150 6250 7050 6250
+Wire Wire Line
+	7150 6350 7050 6350
+Wire Wire Line
+	7150 6450 7050 6450
+Wire Wire Line
+	5400 6050 5300 6050
+Wire Wire Line
+	5400 6150 5300 6150
+Wire Bus Line
+	9750 1900 9750 2300
+Entry Wire Line
+	6950 5950 7050 6050
+Entry Wire Line
+	6950 6050 7050 6150
+Entry Wire Line
+	6950 6150 7050 6250
+Entry Wire Line
+	6950 6250 7050 6350
+Entry Wire Line
+	6950 6350 7050 6450
+Entry Wire Line
+	6950 6350 7050 6450
+Wire Bus Line
+	6800 5800 6950 5800
+Entry Wire Line
+	6950 5850 7050 5950
+Text Label 3000 2850 0    50   ~ 0
+JTAGOM5
+Text Label 3000 2700 0    50   ~ 0
+JTAGOM4
+Text Label 3000 2550 0    50   ~ 0
+JTAGOM3
+Text Label 3000 2400 0    50   ~ 0
+JTAGOM2
+Text Label 3000 2250 0    50   ~ 0
+JTAGOM1
+Text Label 3000 2100 0    50   ~ 0
+JTAGOM0
+Wire Wire Line
+	3000 2100 3450 2100
+Wire Wire Line
+	3000 2250 3450 2250
+Wire Wire Line
+	3000 2400 3450 2400
+Wire Wire Line
+	3000 2550 3450 2550
+Wire Wire Line
+	3000 2700 3450 2700
+Wire Wire Line
+	3000 2850 3450 2850
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5CF034A2
+P 8850 2600
+F 0 "#FLG0106" H 8850 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 8850 2773 50  0000 C CNN
+F 2 "" H 8850 2600 50  0001 C CNN
+F 3 "~" H 8850 2600 50  0001 C CNN
+	1    8850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2600 8850 2800
+Connection ~ 8850 2800
+Wire Wire Line
+	8850 2800 9050 2800
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5CF04B92
+P 6350 2300
+F 0 "#FLG0107" H 6350 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 6350 2473 50  0000 C CNN
+F 2 "" H 6350 2300 50  0001 C CNN
+F 3 "~" H 6350 2300 50  0001 C CNN
+	1    6350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2300 6350 2500
+Connection ~ 6350 2500
 Wire Bus Line
 	5200 5850 5200 6100
 Wire Bus Line
 	3550 5850 3550 6300
 Wire Bus Line
-	6950 5800 6950 6400
+	6950 5800 6950 6350
 $EndSCHEMATC

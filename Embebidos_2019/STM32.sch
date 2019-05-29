@@ -470,7 +470,7 @@ Connection ~ 650  6050
 Wire Wire Line
 	650  6050 650  6350
 Wire Wire Line
-	3650 2800 3800 2800
+	3650 2800 3700 2800
 Wire Wire Line
 	1150 6350 1450 6350
 Wire Wire Line
@@ -525,7 +525,7 @@ $EndComp
 Wire Wire Line
 	1700 3400 1900 3400
 Wire Wire Line
-	2200 3400 2650 3400
+	2200 3400 2500 3400
 $Comp
 L power:Earth #PWR039
 U 1 1 5CE0AA8B
@@ -625,7 +625,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2800 3150 2200
 Wire Wire Line
-	3150 2200 2700 2200
+	3150 2200 2850 2200
 $Comp
 L BAT2032:LED D4
 U 1 1 5CDD175B
@@ -664,11 +664,11 @@ $EndComp
 Wire Wire Line
 	6900 1750 6900 1650
 Text Label 4500 4300 0    50   ~ 0
-TMS
+JTAG0
 Text Label 4500 4400 0    50   ~ 0
-TCK
+JTAG1
 Text Label 4500 4500 0    50   ~ 0
-TDI
+JTAG2
 Wire Wire Line
 	4500 4300 4050 4300
 Wire Wire Line
@@ -680,11 +680,11 @@ TDO
 Wire Wire Line
 	4550 5000 4050 5000
 Text Label 4550 5100 0    50   ~ 0
-TRST
+JTAG4
 Wire Wire Line
 	4550 5100 4050 5100
 Text Label 2350 3000 2    50   ~ 0
-NRST
+JTAG5
 Wire Wire Line
 	2350 3000 2650 3000
 Text Label 4450 1150 2    50   ~ 0
@@ -704,18 +704,6 @@ Text Label 9100 1400 0    50   ~ 0
 JTAG4
 Text Label 9100 1550 0    50   ~ 0
 JTAG5
-Text Label 8750 800  2    50   ~ 0
-TMS
-Text Label 8750 950  2    50   ~ 0
-TCK
-Text Label 8750 1100 2    50   ~ 0
-TDI
-Text Label 8750 1250 2    50   ~ 0
-TDO
-Text Label 8750 1400 2    50   ~ 0
-TRST
-Text Label 8750 1550 2    50   ~ 0
-NRST
 Entry Wire Line
 	9450 800  9550 700 
 Entry Wire Line
@@ -728,22 +716,10 @@ Entry Wire Line
 	9450 1400 9550 1300
 Entry Wire Line
 	9450 1550 9550 1450
-Wire Wire Line
-	8750 800  9450 800 
-Wire Wire Line
-	8750 950  9450 950 
-Wire Wire Line
-	8750 1100 9450 1100
-Wire Wire Line
-	8750 1250 9450 1250
-Wire Wire Line
-	8750 1400 9450 1400
-Wire Wire Line
-	8750 1550 9450 1550
 Wire Bus Line
 	9900 650  9550 650 
 Text HLabel 9900 650  2    50   BiDi ~ 0
-JTAG(5..0)
+JTAG[5..0]
 Wire Wire Line
 	4350 3400 4050 3400
 Wire Wire Line
@@ -815,9 +791,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 5400 4050 5400
 Text Label 4550 5500 0    50   ~ 0
-I2C1_SCL
+I2C1_U0
 Text Label 4550 5600 0    50   ~ 0
-I2C1_SDA
+I2C1_U1
 Wire Wire Line
 	4550 5600 4050 5600
 Text Label 4350 3200 0    50   ~ 0
@@ -829,13 +805,13 @@ Wire Wire Line
 Wire Wire Line
 	4350 3300 4050 3300
 Text Label 4350 3400 0    50   ~ 0
-SPI1_NSS
+SPI1_U3
 Text Label 4350 3500 0    50   ~ 0
-SPI1_SCK
+SPI1_U2
 Text Label 4350 3600 0    50   ~ 0
-SPI1_MISO
+SPI1_U1
 Text Label 4350 3700 0    50   ~ 0
-SPI1_MOSI
+SPI1_U0
 Wire Wire Line
 	4350 3500 4050 3500
 Wire Wire Line
@@ -843,13 +819,13 @@ Wire Wire Line
 Wire Wire Line
 	4350 3700 4050 3700
 Text Label 4550 5800 0    50   ~ 0
-SPI2_NSS
+SPI2_U3
 Text Label 4550 5900 0    50   ~ 0
-SPI2_SCK
+SPI2_U3
 Text Label 4550 6000 0    50   ~ 0
-SPI2_MISO
+SPI2_U1
 Text Label 4550 6100 0    50   ~ 0
-SPI2_MOSI
+SPI2_U0
 Wire Wire Line
 	4550 5800 4050 5800
 Wire Wire Line
@@ -991,48 +967,6 @@ NoConn ~ 2650 5700
 NoConn ~ 2650 5800
 NoConn ~ 2650 5900
 NoConn ~ 2650 4400
-Text Label 8700 2350 2    50   ~ 0
-SPI1_NSS
-Text Label 8700 2250 2    50   ~ 0
-SPI1_SCK
-Text Label 8700 2150 2    50   ~ 0
-SPI1_MISO
-Text Label 8700 2050 2    50   ~ 0
-SPI1_MOSI
-Text Label 9000 2050 0    50   ~ 0
-SPI1_U0
-Text Label 9000 2150 0    50   ~ 0
-SPI1_U1
-Text Label 9000 2250 0    50   ~ 0
-SPI1_U2
-Text Label 9000 2350 0    50   ~ 0
-SPI1_U3
-Entry Wire Line
-	9600 2050 9700 1950
-Entry Wire Line
-	9600 2150 9700 2050
-Entry Wire Line
-	9600 2250 9700 2150
-Entry Wire Line
-	9600 2350 9700 2250
-Wire Wire Line
-	8700 2050 9600 2050
-Wire Wire Line
-	8700 2150 9600 2150
-Wire Wire Line
-	8700 2250 9600 2250
-Wire Wire Line
-	8700 2350 9600 2350
-Wire Bus Line
-	9900 1900 9700 1900
-Text Label 8700 3050 2    50   ~ 0
-SPI2_NSS
-Text Label 8700 2950 2    50   ~ 0
-SPI2_SCK
-Text Label 8700 2850 2    50   ~ 0
-SPI2_MISO
-Text Label 8700 2750 2    50   ~ 0
-SPI2_MOSI
 Text Label 9000 2750 0    50   ~ 0
 SPI2_U0
 Text Label 9000 2850 0    50   ~ 0
@@ -1049,18 +983,10 @@ Entry Wire Line
 	9600 2950 9700 2850
 Entry Wire Line
 	9600 3050 9700 2950
-Wire Wire Line
-	8700 2750 9600 2750
-Wire Wire Line
-	8700 2850 9600 2850
-Wire Wire Line
-	8700 2950 9600 2950
-Wire Wire Line
-	8700 3050 9600 3050
 Wire Bus Line
 	9900 2600 9700 2600
 Text HLabel 9900 2600 2    50   BiDi ~ 0
-SPI2_U(3..0)
+SPI2_U[3..0]
 Text Label 4350 4100 0    50   ~ 0
 USART1_CTS
 Text Label 4350 4200 0    50   ~ 0
@@ -1204,8 +1130,6 @@ Wire Wire Line
 	10150 4350 9300 4350
 Text HLabel 10150 3750 2    50   Output ~ 0
 UART_RTS
-Text HLabel 9900 1900 2    50   BiDi ~ 0
-SPI1_U(3..0)
 Text HLabel 4350 3800 2    50   Output ~ 0
 A_CLKSEL
 Text HLabel 4350 3900 2    50   Output ~ 0
@@ -1230,32 +1154,187 @@ Text HLabel 4350 5200 2    50   Output ~ 0
 BL_WAKE
 Wire Wire Line
 	4350 5200 4050 5200
-Entry Wire Line
-	9850 5100 9950 5000
-Entry Wire Line
-	9850 5200 9950 5100
-Wire Bus Line
-	10050 4950 9950 4950
-Text HLabel 10050 4950 2    50   BiDi ~ 0
-I2C_U(1..0)
-Text Label 9600 5100 0    50   ~ 0
-I2C_U0
+Text HLabel 10200 4950 2    50   BiDi ~ 0
+I2C1_U[1..0]
 Text Label 9600 5200 0    50   ~ 0
-I2C_U1
-Text Label 9100 5100 0    50   ~ 0
-I2C1_SCL
-Text Label 9100 5200 0    50   ~ 0
+I2C1_U1
+Text Notes 4750 4300 0    50   ~ 0
+TMS\n
+Text Notes 4750 4400 0    50   ~ 0
+TCK\n
+Text Notes 4750 4500 0    50   ~ 0
+TDI\n
+Text Notes 4800 5100 0    50   ~ 0
+TRST\n
+Text Notes 1900 3000 0    50   ~ 0
+NRST\n
+Text Notes 8800 800  0    50   ~ 0
+TMS\n
+Text Notes 8800 950  0    50   ~ 0
+TCK\n
+Text Notes 8800 1100 0    50   ~ 0
+TDI\n
+Text Notes 8800 1250 0    50   ~ 0
+TDO\n
+Text Notes 8750 1400 0    50   ~ 0
+TRST\n
+Text Notes 8750 1550 0    50   ~ 0
+NRST\n
+Wire Wire Line
+	9450 800  9100 800 
+Wire Wire Line
+	9450 950  9100 950 
+Wire Wire Line
+	9450 1100 9100 1100
+Wire Wire Line
+	9450 1250 9100 1250
+Wire Wire Line
+	9450 1400 9100 1400
+Wire Wire Line
+	9450 1550 9100 1550
+Text Notes 4700 3700 0    50   ~ 0
+SPI1_MOSI\n
+Text Notes 4700 3600 0    50   ~ 0
+SPI1_MISO\n
+Text Notes 4700 3500 0    50   ~ 0
+SPI1_SCK\n
+Text Notes 4700 3400 0    50   ~ 0
+SPI1_NSS\n
+Text Notes 8500 2050 0    50   ~ 0
+SPI1_MOSI\n
+Text Notes 8500 2150 0    50   ~ 0
+SPI1_MISO\n
+Text Notes 8500 2250 0    50   ~ 0
+SPI1_SCK\n
+Text Notes 8500 2350 0    50   ~ 0
+SPI1_NSS\n
+Text Notes 4900 6100 0    50   ~ 0
+SPI2_MOSI
+Text Notes 4900 6000 0    50   ~ 0
+SPI2_MISO
+Text Notes 4900 5900 0    50   ~ 0
+SPI2_SCK
+Text Notes 4900 5800 0    50   ~ 0
+SPI2_NSS\n
+Text Notes 8500 2750 0    50   ~ 0
+SPI2_MOSI
+Text Notes 8500 2850 0    50   ~ 0
+SPI2_MISO
+Text Notes 8500 2950 0    50   ~ 0
+SPI2_SCK
+Text Notes 8500 3050 0    50   ~ 0
+SPI2_NSS\n
+Wire Wire Line
+	9600 2750 9000 2750
+Wire Wire Line
+	9600 2850 9000 2850
+Wire Wire Line
+	9600 2950 9000 2950
+Wire Wire Line
+	9600 3050 9000 3050
+Text Notes 4900 5500 0    50   ~ 0
+I2C1_SCL\n
+Text Notes 4900 5600 0    50   ~ 0
 I2C1_SDA
-Wire Wire Line
-	9100 5100 9850 5100
-Wire Wire Line
-	9100 5200 9850 5200
+Text Notes 9100 5100 0    50   ~ 0
+I2C1_SCL\n
+Text Notes 9100 5200 0    50   ~ 0
+I2C1_SDA
+Text Label 9050 2050 0    50   ~ 0
+SPI1_U0
+Text Label 9050 2150 0    50   ~ 0
+SPI1_U1
+Text Label 9050 2250 0    50   ~ 0
+SPI1_U2
+Text Label 9050 2350 0    50   ~ 0
+SPI1_U3
+Entry Wire Line
+	9650 2050 9750 1950
+Entry Wire Line
+	9650 2150 9750 2050
+Entry Wire Line
+	9650 2250 9750 2150
+Entry Wire Line
+	9650 2350 9750 2250
 Wire Bus Line
-	9950 4950 9950 5150
+	9950 1900 9750 1900
+Text HLabel 9950 1900 2    50   BiDi ~ 0
+SPI1_U[3..0]
+Wire Wire Line
+	9650 2050 9050 2050
+Wire Wire Line
+	9650 2150 9050 2150
+Wire Wire Line
+	9650 2250 9050 2250
+Wire Wire Line
+	9650 2350 9050 2350
+Text Label 9600 5100 0    50   ~ 0
+I2C1_U0
+Wire Bus Line
+	10200 4950 10150 4950
+Entry Wire Line
+	10050 5100 10150 5000
+Entry Wire Line
+	10050 5200 10150 5100
+Wire Wire Line
+	9600 5100 10050 5100
+Wire Wire Line
+	9600 5200 10050 5200
+NoConn ~ 6150 5600
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CEFC862
+P 2850 2100
+F 0 "#FLG0101" H 2850 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 2273 50  0000 C CNN
+F 2 "" H 2850 2100 50  0001 C CNN
+F 3 "~" H 2850 2100 50  0001 C CNN
+	1    2850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2100 2850 2200
+Connection ~ 2850 2200
+Wire Wire Line
+	2850 2200 2700 2200
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5CEFEE3E
+P 3700 2650
+F 0 "#FLG0102" H 3700 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 2823 50  0000 C CNN
+F 2 "" H 3700 2650 50  0001 C CNN
+F 3 "~" H 3700 2650 50  0001 C CNN
+	1    3700 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2650 3700 2800
+Connection ~ 3700 2800
+Wire Wire Line
+	3700 2800 3800 2800
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5CF07909
+P 2500 3700
+F 0 "#FLG0109" H 2500 3775 50  0001 C CNN
+F 1 "PWR_FLAG" H 2500 3873 50  0000 C CNN
+F 2 "" H 2500 3700 50  0001 C CNN
+F 3 "~" H 2500 3700 50  0001 C CNN
+	1    2500 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3700 2500 3400
+Connection ~ 2500 3400
+Wire Wire Line
+	2500 3400 2650 3400
+Wire Bus Line
+	10150 4950 10150 5250
+Wire Bus Line
+	9750 1900 9750 2300
 Wire Bus Line
 	9700 2600 9700 3000
-Wire Bus Line
-	9700 1900 9700 2300
 Wire Bus Line
 	9550 650  9550 1450
 $EndSCHEMATC

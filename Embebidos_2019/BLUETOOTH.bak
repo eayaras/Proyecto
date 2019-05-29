@@ -89,19 +89,8 @@ F 3 "~" H 3350 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 4550 3350 4400
-Wire Wire Line
-	3250 2900 3250 2500
-Wire Wire Line
-	3350 2500 3350 2900
-Text GLabel 3300 2350 1    50   Input ~ 0
+Text GLabel 3300 1900 1    50   Input ~ 0
 +3.3V_MCU
-Wire Wire Line
-	3300 2350 3300 2500
-Wire Wire Line
-	3250 2500 3300 2500
-Connection ~ 3300 2500
-Wire Wire Line
-	3300 2500 3350 2500
 Text Label 4500 3100 0    50   ~ 0
 TX
 Text Label 4500 3200 0    50   ~ 0
@@ -265,6 +254,77 @@ Wire Wire Line
 	4250 3300 4800 3300
 Wire Wire Line
 	4250 3400 4800 3400
+$Comp
+L BAT2032:C C58
+U 1 1 5CEF8DF4
+P 3950 2700
+F 0 "C58" V 3698 2700 50  0000 C CNN
+F 1 "100 nF" V 3789 2700 50  0000 C CNN
+F 2 "Embebidos_2019:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3988 2550 50  0001 C CNN
+F 3 "~" H 3950 2700 50  0001 C CNN
+	1    3950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR07
+U 1 1 5CEFBEA6
+P 4250 2750
+F 0 "#PWR07" H 4250 2500 50  0001 C CNN
+F 1 "Earth" H 4250 2600 50  0001 C CNN
+F 2 "" H 4250 2750 50  0001 C CNN
+F 3 "~" H 4250 2750 50  0001 C CNN
+	1    4250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR06
+U 1 1 5CEFCA35
+P 4250 2400
+F 0 "#PWR06" H 4250 2150 50  0001 C CNN
+F 1 "Earth" H 4250 2250 50  0001 C CNN
+F 2 "" H 4250 2400 50  0001 C CNN
+F 3 "~" H 4250 2400 50  0001 C CNN
+	1    4250 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2750 4250 2700
+Wire Wire Line
+	4250 2700 4100 2700
+Wire Wire Line
+	3800 2700 3350 2700
+Wire Wire Line
+	3350 2700 3350 2900
+Wire Wire Line
+	3250 2250 3250 2900
+$Comp
+L BAT2032:C C57
+U 1 1 5CEFA383
+P 3950 2250
+F 0 "C57" V 3698 2250 50  0000 C CNN
+F 1 "100 nF" V 3789 2250 50  0000 C CNN
+F 2 "Embebidos_2019:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3988 2100 50  0001 C CNN
+F 3 "~" H 3950 2250 50  0001 C CNN
+	1    3950 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 2400 4250 2250
+Wire Wire Line
+	4250 2250 4100 2250
+Wire Wire Line
+	3350 2700 3350 2250
+Wire Wire Line
+	3250 2250 3300 2250
+Connection ~ 3350 2700
+Connection ~ 3350 2250
+Wire Wire Line
+	3350 2250 3800 2250
+Wire Wire Line
+	3300 1900 3300 2250
+Connection ~ 3300 2250
+Wire Wire Line
+	3300 2250 3350 2250
 Wire Wire Line
 	1500 3200 1650 3200
 Wire Wire Line

@@ -53,7 +53,7 @@ Wire Wire Line
 	4000 2500 3750 2500
 Connection ~ 4000 2500
 Wire Wire Line
-	4450 2350 4350 2350
+	4450 2350 4400 2350
 Wire Wire Line
 	4350 2350 4350 2200
 Wire Wire Line
@@ -127,7 +127,7 @@ Wire Wire Line
 	4050 3950 4450 3950
 Connection ~ 4050 3950
 Wire Wire Line
-	3800 3950 3100 3950
+	3800 3950 3300 3950
 Connection ~ 3800 3950
 Connection ~ 3100 3950
 Wire Wire Line
@@ -722,13 +722,13 @@ Connection ~ 10450 1800
 Wire Wire Line
 	10450 1800 10900 1800
 Text Label 6750 4050 0    50   ~ 0
-SPI_CS0
+SPI_ADS3
 Text Label 6750 4150 0    50   ~ 0
-SPI_MOSI
+SPI_ADS0
 Text Label 6750 4250 0    50   ~ 0
-SPI_SCK
+SPI_ADS2
 Text Label 6750 4350 0    50   ~ 0
-SPI_MISO
+SPI_ADS1
 Wire Wire Line
 	6750 4050 6350 4050
 Wire Wire Line
@@ -773,18 +773,10 @@ Text Label 9500 5700 2    50   ~ 0
 SPI_ADS1
 Text Label 9500 5850 2    50   ~ 0
 SPI_ADS2
-Text Label 9650 6000 0    50   ~ 0
-SPI_CS0
-Text Label 9650 5550 0    50   ~ 0
-SPI_MOSI
-Text Label 9650 5850 0    50   ~ 0
-SPI_SCK
-Text Label 9650 5700 0    50   ~ 0
-SPI_MISO
 Text Label 9500 6000 2    50   ~ 0
 SPI_ADS3
 Text HLabel 8600 5350 0    50   BiDi ~ 0
-SPI_ADS(3..0)
+SPI_ADS[3..0]
 Text Label 2450 2200 0    50   ~ 0
 AVDD
 Text Label 2450 2500 0    50   ~ 0
@@ -825,14 +817,54 @@ Text Label 5000 6200 0    50   ~ 0
 DVDD
 Wire Wire Line
 	5000 6200 4600 6200
+Text Notes 7150 4150 0    50   ~ 0
+MOSI
+Text Notes 7150 4350 0    50   ~ 0
+MISO
+Text Notes 7150 4250 0    50   ~ 0
+SCK
+Text Notes 7150 4050 0    50   ~ 0
+CS0
 Wire Wire Line
-	8900 5550 9650 5550
+	9500 5550 8900 5550
 Wire Wire Line
-	8900 5700 9650 5700
+	9500 5700 8900 5700
 Wire Wire Line
-	8900 5850 9650 5850
+	9500 5850 8900 5850
 Wire Wire Line
-	8900 6000 9650 6000
+	9500 6000 8900 6000
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5CF0109C
+P 4400 2100
+F 0 "#FLG0104" H 4400 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 4400 2273 50  0000 C CNN
+F 2 "" H 4400 2100 50  0001 C CNN
+F 3 "~" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2100 4400 2350
+Connection ~ 4400 2350
+Wire Wire Line
+	4400 2350 4350 2350
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5CF01F85
+P 3300 3800
+F 0 "#FLG0105" H 3300 3875 50  0001 C CNN
+F 1 "PWR_FLAG" H 3300 3973 50  0000 C CNN
+F 2 "" H 3300 3800 50  0001 C CNN
+F 3 "~" H 3300 3800 50  0001 C CNN
+	1    3300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3800 3300 3950
+Connection ~ 3300 3950
+Wire Wire Line
+	3300 3950 3100 3950
 Wire Bus Line
 	8800 5350 8800 6050
 $EndSCHEMATC

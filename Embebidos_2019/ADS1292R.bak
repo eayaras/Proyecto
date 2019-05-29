@@ -722,13 +722,13 @@ Connection ~ 10450 1800
 Wire Wire Line
 	10450 1800 10900 1800
 Text Label 6750 4050 0    50   ~ 0
-SPI_CS0
+SPI_ADS3
 Text Label 6750 4150 0    50   ~ 0
-SPI_MOSI
+SPI_ADS0
 Text Label 6750 4250 0    50   ~ 0
-SPI_SCK
+SPI_ADS2
 Text Label 6750 4350 0    50   ~ 0
-SPI_MISO
+SPI_ADS1
 Wire Wire Line
 	6750 4050 6350 4050
 Wire Wire Line
@@ -773,18 +773,10 @@ Text Label 9500 5700 2    50   ~ 0
 SPI_ADS1
 Text Label 9500 5850 2    50   ~ 0
 SPI_ADS2
-Text Label 9650 6000 0    50   ~ 0
-SPI_CS0
-Text Label 9650 5550 0    50   ~ 0
-SPI_MOSI
-Text Label 9650 5850 0    50   ~ 0
-SPI_SCK
-Text Label 9650 5700 0    50   ~ 0
-SPI_MISO
 Text Label 9500 6000 2    50   ~ 0
 SPI_ADS3
 Text HLabel 8600 5350 0    50   BiDi ~ 0
-SPI_ADS(3..0)
+SPI_ADS[3..0]
 Text Label 2450 2200 0    50   ~ 0
 AVDD
 Text Label 2450 2500 0    50   ~ 0
@@ -825,14 +817,22 @@ Text Label 5000 6200 0    50   ~ 0
 DVDD
 Wire Wire Line
 	5000 6200 4600 6200
+Text Notes 7150 4150 0    50   ~ 0
+MOSI
+Text Notes 7150 4350 0    50   ~ 0
+MISO
+Text Notes 7150 4250 0    50   ~ 0
+SCK
+Text Notes 7150 4050 0    50   ~ 0
+CS0
 Wire Wire Line
-	8900 5550 9650 5550
+	9500 5550 8900 5550
 Wire Wire Line
-	8900 5700 9650 5700
+	9500 5700 8900 5700
 Wire Wire Line
-	8900 5850 9650 5850
+	9500 5850 8900 5850
 Wire Wire Line
-	8900 6000 9650 6000
+	9500 6000 8900 6000
 Wire Bus Line
 	8800 5350 8800 6050
 $EndSCHEMATC
