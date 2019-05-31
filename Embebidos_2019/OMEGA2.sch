@@ -51,7 +51,7 @@ U 1 1 5B9C8903
 P 6600 2600
 F 0 "J2" H 6680 2642 50  0000 L CNN
 F 1 "A128518-ND" H 6680 2551 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6600 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6600 2600 50  0001 C CNN
 F 3 "~" H 6600 2600 50  0001 C CNN
 	1    6600 2600
 	1    0    0    -1  
@@ -190,9 +190,9 @@ F 3 "~" H 9750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3500 900  0    50   Input ~ 0
-+3.3V_MCU
++3.3V_OM
 Text GLabel 9000 950  0    50   Input ~ 0
-+3.3V_MCU
++3.3V_OM
 $Comp
 L Embebidos_2019-rescue:C-Device-pcb_embedded_systems-rescue C?
 U 1 1 5BA05C96

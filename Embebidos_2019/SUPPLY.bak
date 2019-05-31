@@ -223,25 +223,10 @@ F 3 "~" H 6950 1850 50  0001 C CNN
 	1    6950 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Embebidos_2019-rescue:+5V-power-pcb_embedded_systems-rescue #PWR?
-U 1 1 5C91E97D
-P 6950 1400
-AR Path="/5C91E97D" Ref="#PWR?"  Part="1" 
-AR Path="/5CE6DB76/5C91E97D" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 6950 1250 50  0001 C CNN
-F 1 "+5V" H 6965 1573 50  0000 C CNN
-F 2 "" H 6950 1400 50  0001 C CNN
-F 3 "" H 6950 1400 50  0001 C CNN
-	1    6950 1400
-	1    0    0    -1  
-$EndComp
 Text Notes 6400 1800 0    50   ~ 0
 Indicador de\nEncendido
 Wire Notes Line
 	6300 2300 6300 1150
-Wire Notes Line
-	6300 1150 7250 1150
 Wire Notes Line
 	7250 1150 7250 2300
 Wire Notes Line
@@ -766,4 +751,23 @@ F 3 "~" H 6950 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 2050 6950 2000
+Text GLabel 6900 1250 0    50   Input ~ 0
++5V
+Wire Wire Line
+	6950 1400 6950 1250
+Wire Wire Line
+	6950 1250 6900 1250
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5CF05EA9
+P 3400 8350
+F 0 "#FLG0108" H 3400 8425 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 8523 50  0000 C CNN
+F 2 "" H 3400 8350 50  0001 C CNN
+F 3 "~" H 3400 8350 50  0001 C CNN
+	1    3400 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 8350 3400 8550
 $EndSCHEMATC

@@ -134,7 +134,7 @@ U 1 1 5CEDDACF
 P 2800 5850
 F 0 "J1" H 2908 6531 50  0000 C CNN
 F 1 "A106614-ND" H 2908 6440 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2800 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2800 5850 50  0001 C CNN
 F 3 "~" H 2800 5850 50  0001 C CNN
 	1    2800 5850
 	1    0    0    -1  

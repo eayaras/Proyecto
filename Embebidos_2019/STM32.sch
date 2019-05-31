@@ -813,15 +813,13 @@ SPI1_U1
 Text Label 4350 3700 0    50   ~ 0
 SPI1_U0
 Wire Wire Line
-	4350 3500 4050 3500
-Wire Wire Line
 	4350 3600 4050 3600
 Wire Wire Line
 	4350 3700 4050 3700
 Text Label 4550 5800 0    50   ~ 0
 SPI2_U3
 Text Label 4550 5900 0    50   ~ 0
-SPI2_U3
+SPI2_U2
 Text Label 4550 6000 0    50   ~ 0
 SPI2_U1
 Text Label 4550 6100 0    50   ~ 0
@@ -848,7 +846,7 @@ U 1 1 5CE0D140
 P 5950 6000
 F 0 "J5" H 6058 6781 50  0000 C CNN
 F 1 "Conn_01x14_Male" H 6058 6690 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Vertical" H 5950 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 5950 6000 50  0001 C CNN
 F 3 "~" H 5950 6000 50  0001 C CNN
 	1    5950 6000
 	1    0    0    -1  
@@ -1329,6 +1327,8 @@ Wire Wire Line
 Connection ~ 2500 3400
 Wire Wire Line
 	2500 3400 2650 3400
+Wire Wire Line
+	4350 3500 4050 3500
 Wire Bus Line
 	10150 4950 10150 5250
 Wire Bus Line

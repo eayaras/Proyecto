@@ -51,7 +51,7 @@ U 1 1 5B9C8903
 P 6600 2600
 F 0 "J2" H 6680 2642 50  0000 L CNN
 F 1 "A128518-ND" H 6680 2551 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6600 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6600 2600 50  0001 C CNN
 F 3 "~" H 6600 2600 50  0001 C CNN
 	1    6600 2600
 	1    0    0    -1  
@@ -190,9 +190,9 @@ F 3 "~" H 9750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3500 900  0    50   Input ~ 0
-+3.3V_MCU
++3.3V_OM
 Text GLabel 9000 950  0    50   Input ~ 0
-+3.3V_MCU
++3.3V_OM
 $Comp
 L Embebidos_2019-rescue:C-Device-pcb_embedded_systems-rescue C?
 U 1 1 5BA05C96
@@ -273,7 +273,7 @@ $EndComp
 Wire Wire Line
 	8750 2800 8750 3600
 Wire Wire Line
-	8750 2800 9050 2800
+	8750 2800 8850 2800
 Wire Wire Line
 	9050 2950 9050 2800
 Wire Wire Line
@@ -764,6 +764,36 @@ Wire Wire Line
 	3000 2700 3450 2700
 Wire Wire Line
 	3000 2850 3450 2850
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5CF034A2
+P 8850 2600
+F 0 "#FLG0106" H 8850 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 8850 2773 50  0000 C CNN
+F 2 "" H 8850 2600 50  0001 C CNN
+F 3 "~" H 8850 2600 50  0001 C CNN
+	1    8850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2600 8850 2800
+Connection ~ 8850 2800
+Wire Wire Line
+	8850 2800 9050 2800
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5CF04B92
+P 6350 2300
+F 0 "#FLG0107" H 6350 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 6350 2473 50  0000 C CNN
+F 2 "" H 6350 2300 50  0001 C CNN
+F 3 "~" H 6350 2300 50  0001 C CNN
+	1    6350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2300 6350 2500
+Connection ~ 6350 2500
 Wire Bus Line
 	5200 5850 5200 6100
 Wire Bus Line
