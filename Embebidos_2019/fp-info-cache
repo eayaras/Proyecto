@@ -1,4 +1,235 @@
-54438467266205
+105922687675176
+Display
+Adafruit_SSD1306
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+Display
+Adafruit_SSD1306_No_Mounting_Holes
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+Display
+AG12864E
+STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+AG12864E Graphics Display 128x64 Ampire
+0
+24
+20
+Display
+CR2013-MI2120
+CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
+CR2013-MI2120 ILI9341 LCD Breakout
+0
+18
+14
+Display
+EA-eDIP128B-XXX
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI
+0
+32
+32
+Display
+EA_DOGS104X-A
+LCD 4x10 character 3.3V VDD I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf
+LCD 4x10 character 3.3V VDD I2C or SPI
+0
+14
+14
+Display
+EA_DOGXL160-7
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7
+0
+22
+22
+Display
+EA_DOGXL160-7_Backlight
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7_Backlight
+0
+22
+22
+Display
+EA_eDIP160-XXX
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip160-7e.pdf
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI
+0
+40
+40
+Display
+EA_eDIP240-XXX
+LCD graphical display LED backlight 240x128 http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip240-7e.pdf
+LCD graphical display LED backlight 240x128
+0
+40
+40
+Display
+EA_eDIP320X-XXX
+LCD display 320x340 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip320-8e.pdf
+LCD display 320x340 RS-232 I2C or SPI
+0
+48
+48
+Display
+EA_eDIPTFT32-XXX
+TFT-graphic display 320x240 16 bit colour with led backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft32-ae.pdf
+TFT-graphic display 320x240 16 bit colour with led backlight
+0
+40
+40
+Display
+EA_eDIPTFT43-ATC
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+Display
+EA_eDIPTFT43-XXX
+TFT graphical display 480x272 16-bit colour with LED backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+Display
+EA_eDIPTFT57-XXX
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft57-ae.pdf
+TFT-graphic display 640x480 16 bit colour
+0
+48
+48
+Display
+EA_eDIPTFT70-ATC
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel
+0
+48
+48
+Display
+EA_eDIPTFT70-XXX
+TFT-graphical display 800x480 16-bit colours http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours and touch display
+0
+48
+48
+Display
+EA_T123X-I2C
+http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+3 Line 12 character wide alpha numeric LCD
+0
+6
+6
+Display
+HDSM-441B_HDSM-443B
+2 Digit 7 segemnt blue LED, right hand decimal, https://docs.broadcom.com/docs/AV02-1589EN
+2 Digit 7 segment blue LED
+0
+10
+10
+Display
+HDSM-541B_HDSM-543B
+2 digit 7 segement blue LED with right hand decimal, https://docs.broadcom.com/docs/AV02-1588EN
+2 digit 7 segement blue LED with right hand decimal
+0
+10
+10
+Display
+HDSP-48xx
+10-Element Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Bar Graph Array
+0
+20
+20
+Display
+HDSP-4830
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+Display
+HDSP-4832
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+Display
+HDSP-4836
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+Display
+HDSP-4840
+10-Element Yellow Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Yellow Bar Graph Array
+0
+20
+20
+Display
+HDSP-4850
+10-Element Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Green Bar Graph Array
+0
+20
+20
+Display
+HLCP-J100
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+Display
+HY1602E
+http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
+Display
+LCD-016N002L
+16 x 2 Character LCD, http://www.vishay.com/product?docid=37299
+LCD-016N002L 16 x 2 Character LCD
+0
+24
+20
+Display
+LM16255
+LCD LM16255 16x2 character http://www.datasheetlib.com/datasheet/259542/lm16255_sharp-electronics.html
+LCD 12x2
+0
+14
+14
+Display
+NHD-0420H1Z
+NHD-0420H1Z LCD http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
+NHD-0420H1Z LCD
+0
+16
+16
+Display
+RC1602A
+http://www.raystar-optronics.com/down.php?ProID=18
+LCD 16x2 Alphanumeric 16pin
+0
+22
+18
+Display
+WC1602A
+LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
 Embebidos_2019
 10118194-0001LF
 http://portal.fciconnect.com/Comergent//fci/drawing/10118194.pdf
@@ -36,8 +267,8 @@ ASFLMB-24.000MHZ-LC-T
 4
 Embebidos_2019
 BARREL_JACK
-DC{space}Barrel{space}Jack
-Power{space}Jack
+DC Barrel Jack
+Power Jack
 0
 3
 3
@@ -50,22 +281,22 @@ BAT-HLD-001
 3
 Embebidos_2019
 C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-Capacitor{space}SMD{space}0603{space}(1608{space}Metric),{space}square{space}(rectangular){space}end{space}terminal,{space}IPC_7351{space}nominal{space}with{space}elongated{space}pad{space}for{space}handsoldering.{space}(Body{space}size{space}source:{space}http://www.tortai-tech.com/upload/download/2011102023233369053.pdf),{space}generated{space}with{space}kicad-footprint-generator
-capacitor{space}handsolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
 0
 2
 2
 Embebidos_2019
 C_0805_HandSoldering
-Capacitor{space}SMD{space}0805,{space}hand{space}soldering
-capacitor{space}0805
+Capacitor SMD 0805, hand soldering
+capacitor 0805
 0
 2
 2
 Embebidos_2019
 C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-Capacitor{space}SMD{space}1206{space}(3216{space}Metric),{space}square{space}(rectangular){space}end{space}terminal,{space}IPC_7351{space}nominal{space}with{space}elongated{space}pad{space}for{space}handsoldering.{space}(Body{space}size{space}source:{space}http://www.tortai-tech.com/upload/download/2011102023233369053.pdf),{space}generated{space}with{space}kicad-footprint-generator
-capacitor{space}handsolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
 0
 2
 2
@@ -85,8 +316,8 @@ FSM1LPTR
 5
 Embebidos_2019
 LED_0805_HandSoldering
-Resistor{space}SMD{space}0805,{space}hand{space}soldering
-resistor{space}0805
+Resistor SMD 0805, hand soldering
+resistor 0805
 0
 2
 2
@@ -99,22 +330,22 @@ LIS3DHTR
 16
 Embebidos_2019
 LQFP-144_20x20mm_Pitch0.5mm
-144-Lead{space}Plastic{space}Low{space}Profile{space}Quad{space}Flatpack{space}(PL){space}-{space}20x20x1.40{space}mm{space}Body{space}[LQFP],{space}2.00{space}mm{space}Footprint{space}(see{space}Microchip{space}Packaging{space}Specification{space}00000049BS.pdf)
-QFP{space}0.5
+144-Lead Plastic Low Profile Quad Flatpack (PL) - 20x20x1.40 mm Body [LQFP], 2.00 mm Footprint (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
 0
 144
 144
 Embebidos_2019
 L_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-Capacitor{space}SMD{space}0603{space}(1608{space}Metric),{space}square{space}(rectangular){space}end{space}terminal,{space}IPC_7351{space}nominal{space}with{space}elongated{space}pad{space}for{space}handsoldering.{space}(Body{space}size{space}source:{space}http://www.tortai-tech.com/upload/download/2011102023233369053.pdf),{space}generated{space}with{space}kicad-footprint-generator
-inductor{space}handsolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor handsolder
 0
 2
 2
 Embebidos_2019
 MountingHole_2.7mm_M2.5_ISO14580_Pad
-Mounting{space}Hole{space}2.7mm,{space}M2.5,{space}ISO14580
-mounting{space}hole{space}2.7mm{space}m2.5{space}iso14580
+Mounting Hole 2.7mm, M2.5, ISO14580
+mounting hole 2.7mm m2.5 iso14580
 0
 1
 1
@@ -127,92 +358,92 @@ NX3215SA
 2
 Embebidos_2019
 ONION-OMEGA
-FOOTPRINT{space}FOR{space}ONION{space}OMEGA
-FOOTPRINT{space}FOR{space}ONION{space}OMEGA
+FOOTPRINT FOR ONION OMEGA
+FOOTPRINT FOR ONION OMEGA
 0
 32
 32
 Embebidos_2019
 PinHeader_2x07_P2.54mm_Vertical
-Through{space}hole{space}straight{space}pin{space}header,{space}2x07,{space}2.54mm{space}pitch,{space}double{space}rows
-Through{space}hole{space}pin{space}header{space}THT{space}2x07{space}2.54mm{space}double{space}row
+Through hole straight pin header, 2x07, 2.54mm pitch, double rows
+Through hole pin header THT 2x07 2.54mm double row
 0
 14
 14
 Embebidos_2019
 PinHeader_2x08_P2.54mm_Vertical_SMD
-surface-mounted{space}straight{space}pin{space}header,{space}2x08,{space}2.54mm{space}pitch,{space}double{space}rows
-Surface{space}mounted{space}pin{space}header{space}SMD{space}2x08{space}2.54mm{space}double{space}row
+surface-mounted straight pin header, 2x08, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x08 2.54mm double row
 0
 16
 16
 Embebidos_2019
 PinHeader_2x09_P2.54mm_Vertical
-Through{space}hole{space}straight{space}pin{space}header,{space}2x09,{space}2.54mm{space}pitch,{space}double{space}rows
-Through{space}hole{space}pin{space}header{space}THT{space}2x09{space}2.54mm{space}double{space}row
+Through hole straight pin header, 2x09, 2.54mm pitch, double rows
+Through hole pin header THT 2x09 2.54mm double row
 0
 18
 18
 Embebidos_2019
 PinHeader_2x09_P2.54mm_Vertical_SMD
-surface-mounted{space}straight{space}pin{space}header,{space}2x09,{space}2.54mm{space}pitch,{space}double{space}rows
-Surface{space}mounted{space}pin{space}header{space}SMD{space}2x09{space}2.54mm{space}double{space}row
+surface-mounted straight pin header, 2x09, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x09 2.54mm double row
 0
 18
 18
 Embebidos_2019
 PinHeader_2x14_P2.54mm_Vertical
-Through{space}hole{space}straight{space}pin{space}header,{space}2x14,{space}2.54mm{space}pitch,{space}double{space}rows
-Through{space}hole{space}pin{space}header{space}THT{space}2x14{space}2.54mm{space}double{space}row
+Through hole straight pin header, 2x14, 2.54mm pitch, double rows
+Through hole pin header THT 2x14 2.54mm double row
 0
 28
 28
 Embebidos_2019
 PinHeader_2x15_P2.54mm_Vertical_SMD
-surface-mounted{space}straight{space}pin{space}header,{space}2x15,{space}2.54mm{space}pitch,{space}double{space}rows
-Surface{space}mounted{space}pin{space}header{space}SMD{space}2x15{space}2.54mm{space}double{space}row
+surface-mounted straight pin header, 2x15, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x15 2.54mm double row
 0
 30
 30
 Embebidos_2019
 PinHeader_2x20_P2.54mm_Vertical_SMD
-surface-mounted{space}straight{space}pin{space}header,{space}2x20,{space}2.54mm{space}pitch,{space}double{space}rows
-Surface{space}mounted{space}pin{space}header{space}SMD{space}2x20{space}2.54mm{space}double{space}row
+surface-mounted straight pin header, 2x20, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x20 2.54mm double row
 0
 40
 40
 Embebidos_2019
 R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-Resistor{space}SMD{space}0603{space}(1608{space}Metric),{space}square{space}(rectangular){space}end{space}terminal,{space}IPC_7351{space}nominal{space}with{space}elongated{space}pad{space}for{space}handsoldering.{space}(Body{space}size{space}source:{space}http://www.tortai-tech.com/upload/download/2011102023233369053.pdf),{space}generated{space}with{space}kicad-footprint-generator
-resistor{space}handsolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
 0
 2
 2
 Embebidos_2019
 R_0805_HandSoldering
-Resistor{space}SMD{space}0805,{space}hand{space}soldering
-resistor{space}0805
+Resistor SMD 0805, hand soldering
+resistor 0805
 0
 2
 2
 Embebidos_2019
 SOIC-8_3.9x4.9mm_Pitch1.27mm
-8-Lead{space}Plastic{space}Small{space}Outline{space}(SN){space}-{space}Narrow,{space}3.90{space}mm{space}Body{space}[SOIC]{space}(see{space}Microchip{space}Packaging{space}Specification{space}00000049BS.pdf)
-SOIC{space}1.27
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 8
 8
 Embebidos_2019
 SOT-23
-SOT-23,{space}Standard
+SOT-23, Standard
 SOT-23
 0
 3
 3
 Embebidos_2019
 SOT-223
-module{space}CMS{space}SOT223{space}4{space}pins
-CMS{space}SOT
+module CMS SOT223 4 pins
+CMS SOT
 0
 4
 4
@@ -232,15 +463,15 @@ STLM75M2F
 8
 Embebidos_2019
 TQFP-144_20x20mm_Pitch0.5mm
-P/PG-TQFP-144-2,{space}-3,{space}-7{space}(see{space}MAXIM{space}21-0087.PDF{space}and{space}90-0144.PDF)
-QFP{space}0.5
+P/PG-TQFP-144-2, -3, -7 (see MAXIM 21-0087.PDF and 90-0144.PDF)
+QFP 0.5
 0
 144
 144
 Embebidos_2019
 USB_A
-USB{space}A{space}connector
-USB{space}USB_A
+USB A connector
+USB USB_A
 0
 6
 5
