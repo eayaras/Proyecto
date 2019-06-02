@@ -128,114 +128,6 @@ Wire Wire Line
 Text Label 1500 3200 2    50   ~ 0
 WAKE
 Connection ~ 1650 3200
-$Comp
-L Connector:Conn_01x12_Male J1
-U 1 1 5CEDDACF
-P 2800 5850
-F 0 "J1" H 2908 6531 50  0000 C CNN
-F 1 "A106614-ND" H 2908 6440 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2800 5850 50  0001 C CNN
-F 3 "~" H 2800 5850 50  0001 C CNN
-	1    2800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR03
-U 1 1 5CEE2278
-P 3450 5350
-F 0 "#PWR03" H 3450 5100 50  0001 C CNN
-F 1 "Earth" H 3450 5200 50  0001 C CNN
-F 2 "" H 3450 5350 50  0001 C CNN
-F 3 "~" H 3450 5350 50  0001 C CNN
-	1    3450 5350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3450 5350 3000 5350
-Text GLabel 3450 5450 2    50   Input ~ 0
-+3.3V_MCU
-Wire Wire Line
-	3450 5450 3000 5450
-Text Label 4500 3500 0    50   ~ 0
-PIO7
-Wire Wire Line
-	4500 3500 4250 3500
-Text Label 4500 3800 0    50   ~ 0
-PIO9
-Wire Wire Line
-	4500 3800 4250 3800
-Text Label 4500 3900 0    50   ~ 0
-PIO10
-Text Label 4500 4000 0    50   ~ 0
-PIO11
-Wire Wire Line
-	4500 3900 4250 3900
-Wire Wire Line
-	4500 4000 4250 4000
-Text Label 2300 3300 2    50   ~ 0
-AIO0
-Text Label 2300 3400 2    50   ~ 0
-AIO1
-Text Label 2300 3500 2    50   ~ 0
-AIO2
-Text Label 2300 3700 2    50   ~ 0
-PIO3
-Text Label 2300 3800 2    50   ~ 0
-PIO4
-Text Label 2300 3900 2    50   ~ 0
-PIO8
-Wire Wire Line
-	2300 3300 2550 3300
-Wire Wire Line
-	2300 3400 2550 3400
-Wire Wire Line
-	2300 3500 2550 3500
-Wire Wire Line
-	2300 3700 2550 3700
-Wire Wire Line
-	2300 3800 2550 3800
-Wire Wire Line
-	2300 3900 2550 3900
-Text Label 3500 5550 0    50   ~ 0
-AIO0
-Text Label 3500 5650 0    50   ~ 0
-AIO1
-Text Label 3500 5750 0    50   ~ 0
-AIO2
-Text Label 3500 5850 0    50   ~ 0
-PIO3
-Text Label 3500 5950 0    50   ~ 0
-PIO4
-Text Label 3500 6050 0    50   ~ 0
-PIO8
-Text Label 3500 6150 0    50   ~ 0
-PIO7
-Text Label 3500 6250 0    50   ~ 0
-PIO9
-Text Label 3500 6350 0    50   ~ 0
-PIO10
-Text Label 3500 6450 0    50   ~ 0
-PIO11
-Wire Wire Line
-	3500 5550 3000 5550
-Wire Wire Line
-	3500 5650 3000 5650
-Wire Wire Line
-	3500 5750 3000 5750
-Wire Wire Line
-	3500 5850 3000 5850
-Wire Wire Line
-	3500 5950 3000 5950
-Wire Wire Line
-	3500 6050 3000 6050
-Wire Wire Line
-	3000 6150 3500 6150
-Wire Wire Line
-	3500 6250 3000 6250
-Wire Wire Line
-	3500 6350 3000 6350
-Wire Wire Line
-	3500 6450 3000 6450
 Text HLabel 950  3200 0    50   BiDi ~ 0
 WAKE
 Text HLabel 4800 3100 2    50   Output ~ 0
@@ -325,10 +217,6 @@ Wire Wire Line
 Connection ~ 3300 2250
 Wire Wire Line
 	3300 2250 3350 2250
-Wire Wire Line
-	1500 3200 1650 3200
-Wire Wire Line
-	950  3200 1650 3200
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5CEFFD9E
@@ -345,4 +233,18 @@ Wire Wire Line
 Connection ~ 3250 2500
 Wire Wire Line
 	3250 2500 3250 2900
+Wire Wire Line
+	1500 3200 1650 3200
+Wire Wire Line
+	950  3200 1650 3200
+NoConn ~ 4250 3500
+NoConn ~ 4250 3800
+NoConn ~ 4250 3900
+NoConn ~ 4250 4000
+NoConn ~ 2550 3700
+NoConn ~ 2550 3800
+NoConn ~ 2550 3900
+NoConn ~ 2550 3500
+NoConn ~ 2550 3400
+NoConn ~ 2550 3300
 $EndSCHEMATC

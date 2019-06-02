@@ -676,7 +676,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4500 4050 4500
 Text Label 4550 5000 0    50   ~ 0
-TDO
+JTAG3
 Wire Wire Line
 	4550 5000 4050 5000
 Text Label 4550 5100 0    50   ~ 0
@@ -688,7 +688,7 @@ JTAG5
 Wire Wire Line
 	2350 3000 2650 3000
 Text Label 4450 1150 2    50   ~ 0
-NRST
+JTAG5
 Wire Wire Line
 	4450 1150 5000 1150
 Connection ~ 5000 1150
@@ -924,13 +924,13 @@ Text Label 2350 5000 0    50   ~ 0
 PC4
 Text Label 2350 5100 0    50   ~ 0
 PC5
-Text Label 2350 5200 0    50   ~ 0
+Text Label 4350 4700 0    50   ~ 0
 PC6
-Text Label 2350 5300 0    50   ~ 0
+Text Label 4350 3800 0    50   ~ 0
 PC7
-Text Label 2350 5400 0    50   ~ 0
+Text Label 4350 3900 0    50   ~ 0
 PC8
-Text Label 2350 5500 0    50   ~ 0
+Text Label 4350 4000 0    50   ~ 0
 PC9
 Text Label 2350 5600 0    50   ~ 0
 PC10
@@ -950,10 +950,6 @@ Wire Wire Line
 	2650 5000 2350 5000
 Wire Wire Line
 	2650 5100 2350 5100
-Wire Wire Line
-	2650 5200 2350 5200
-Wire Wire Line
-	2650 5300 2350 5300
 Wire Wire Line
 	2650 5400 2350 5400
 Wire Wire Line
@@ -1128,24 +1124,16 @@ Wire Wire Line
 	10150 4350 9300 4350
 Text HLabel 10150 3750 2    50   Output ~ 0
 UART_RTS
-Text HLabel 4350 3800 2    50   Output ~ 0
+Text HLabel 2350 5500 0    50   Output ~ 0
 A_CLKSEL
-Text HLabel 4350 3900 2    50   Output ~ 0
+Text HLabel 2350 5200 0    50   Output ~ 0
 A_CLK
-Text HLabel 4350 4000 2    50   Output ~ 0
+Text HLabel 2350 5300 0    50   Output ~ 0
 A_START
-Text HLabel 4350 4700 2    50   Output ~ 0
+Text HLabel 2350 5400 0    50   Output ~ 0
 A_PWDN
 Text HLabel 4350 4800 2    50   Output ~ 0
 A_DRY
-Wire Wire Line
-	4350 3800 4050 3800
-Wire Wire Line
-	4350 3900 4050 3900
-Wire Wire Line
-	4350 4000 4050 4000
-Wire Wire Line
-	4350 4700 4050 4700
 Wire Wire Line
 	4350 4800 4050 4800
 Text HLabel 4350 5200 2    50   Output ~ 0
@@ -1329,6 +1317,20 @@ Wire Wire Line
 	2500 3400 2650 3400
 Wire Wire Line
 	4350 3500 4050 3500
+Text Notes 4800 5000 0    50   ~ 0
+TDO\n
+Wire Wire Line
+	4350 3800 4050 3800
+Wire Wire Line
+	4350 4000 4050 4000
+Wire Wire Line
+	4350 4700 4050 4700
+Wire Wire Line
+	2350 5200 2650 5200
+Wire Wire Line
+	2650 5300 2350 5300
+Wire Wire Line
+	4350 3900 4050 3900
 Wire Bus Line
 	10150 4950 10150 5250
 Wire Bus Line

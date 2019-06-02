@@ -490,10 +490,6 @@ F 3 "~" H 1600 3650 50  0001 C CNN
 	1    1600 3650
 	-1   0    0    1   
 $EndComp
-Text Label 1250 3500 0    50   ~ 0
-MOSI
-Wire Wire Line
-	1250 3500 1600 3500
 Text Notes 750  3750 0    50   ~ 0
 MOSI pull down para\narranque de onion
 Wire Notes Line
@@ -794,6 +790,10 @@ $EndComp
 Wire Wire Line
 	6350 2300 6350 2500
 Connection ~ 6350 2500
+Text Label 1450 3500 2    50   ~ 0
+SPI_OM_0
+Wire Wire Line
+	1600 3500 1450 3500
 Wire Bus Line
 	5200 5850 5200 6100
 Wire Bus Line
