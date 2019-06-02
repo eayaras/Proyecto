@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:Embebidos_2019-cache
 EELAYER 29 0
 EELAYER END

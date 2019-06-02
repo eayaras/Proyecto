@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:Embebidos_2019-cache
 EELAYER 29 0
 EELAYER END
@@ -80,8 +80,8 @@ F13 "A_PWDN" O R 5400 5100 50
 F14 "A_DRY" O R 5400 4800 50 
 F15 "BL_WAKE" O R 5400 3100 50 
 F16 "JTAG[5..0]" B R 5400 3850 50 
-F17 "SPI2_U[3..0]" B R 5400 4000 50 
-F18 "SPI1_U[3..0]" B R 5400 4350 50 
+F17 "SPI2_U[3..0]" B R 5400 4350 50 
+F18 "SPI1_U[3..0]" B R 5400 4000 50 
 F19 "I2C1_U[1..0]" B R 5400 4150 50 
 $EndSheet
 Wire Wire Line

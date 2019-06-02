@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:Embebidos_2019-cache
 EELAYER 29 0
 EELAYER END
@@ -840,58 +840,32 @@ Text Label 6900 900  0    50   ~ 0
 LED1
 Wire Wire Line
 	6900 900  6900 1000
-$Comp
-L Connector:Conn_01x14_Male J5
-U 1 1 5CE0D140
-P 5950 6000
-F 0 "J5" H 6058 6781 50  0000 C CNN
-F 1 "Conn_01x14_Male" H 6058 6690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 5950 6000 50  0001 C CNN
-F 3 "~" H 5950 6000 50  0001 C CNN
-	1    5950 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR045
-U 1 1 5CE117EC
-P 6500 5400
-F 0 "#PWR045" H 6500 5150 50  0001 C CNN
-F 1 "Earth" H 6500 5250 50  0001 C CNN
-F 2 "" H 6500 5400 50  0001 C CNN
-F 3 "~" H 6500 5400 50  0001 C CNN
-	1    6500 5400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6500 5400 6150 5400
 Text GLabel 6550 5500 2    59   Input Italic 0
 +3.3V_MCU
 Wire Wire Line
 	6550 5500 6150 5500
-Text Label 6550 5700 0    50   ~ 0
-PC0
 Wire Wire Line
 	6550 5700 6150 5700
 Text Label 6550 5800 0    50   ~ 0
-PC1
-Text Label 6550 5900 0    50   ~ 0
-PC2
-Text Label 6550 6000 0    50   ~ 0
-PC3
-Text Label 6550 6100 0    50   ~ 0
 PC4
+Text Label 6550 5900 0    50   ~ 0
+PC1
+Text Label 6550 6100 0    50   ~ 0
+PC2
 Text Label 6550 6200 0    50   ~ 0
-PC5
-Text Label 6550 6300 0    50   ~ 0
 PC6
+Text Label 6550 6300 0    50   ~ 0
+PC3
 Text Label 6550 6400 0    50   ~ 0
-PC7
+PC10
 Text Label 6550 6500 0    50   ~ 0
-PC8
+PC7
 Text Label 6550 6600 0    50   ~ 0
 PC9
 Text Label 6550 6700 0    50   ~ 0
-PC10
+PC8
 Wire Wire Line
 	6550 5800 6150 5800
 Wire Wire Line
@@ -1068,6 +1042,8 @@ $Comp
 L BAT2032:Battery_Cell BT1
 U 1 1 5CDADEB4
 P 1500 2450
+AR Path="/5CDADEB4" Ref="BT1"  Part="1" 
+AR Path="/5CE91FF9/5CDADEB4" Ref="BT1"  Part="1" 
 F 0 "BT1" H 1382 2454 50  0000 R CNN
 F 1 "Battery_Cell" H 1382 2545 50  0000 R CNN
 F 2 "Embebidos_2019:BAT-HLD-001" V 1500 2510 50  0001 C CNN
@@ -1266,7 +1242,6 @@ Wire Wire Line
 	9600 5100 10050 5100
 Wire Wire Line
 	9600 5200 10050 5200
-NoConn ~ 6150 5600
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CEFC862
@@ -1331,6 +1306,17 @@ Wire Wire Line
 	2650 5300 2350 5300
 Wire Wire Line
 	4350 3900 4050 3900
+$Comp
+L power:Earth #PWR045
+U 1 1 5CE117EC
+P 6500 5400
+F 0 "#PWR045" H 6500 5150 50  0001 C CNN
+F 1 "Earth" H 6500 5250 50  0001 C CNN
+F 2 "" H 6500 5400 50  0001 C CNN
+F 3 "~" H 6500 5400 50  0001 C CNN
+	1    6500 5400
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	10150 4950 10150 5250
 Wire Bus Line
@@ -1339,4 +1325,20 @@ Wire Bus Line
 	9700 2600 9700 3000
 Wire Bus Line
 	9550 650  9550 1450
+NoConn ~ 6150 5600
+$Comp
+L Connector:Conn_01x14_Male J5
+U 1 1 5CE0D140
+P 5950 6000
+F 0 "J5" H 6058 6781 50  0000 C CNN
+F 1 "Conn_01x14_Male" H 6058 6690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 5950 6000 50  0001 C CNN
+F 3 "~" H 5950 6000 50  0001 C CNN
+	1    5950 6000
+	1    0    0    -1  
+$EndComp
+Text Label 6550 5700 0    50   ~ 0
+PC0
+Text Label 6550 6000 0    50   ~ 0
+PC5
 $EndSCHEMATC
