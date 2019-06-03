@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:Embebidos_2019-cache
 EELAYER 29 0
 EELAYER END
@@ -233,10 +233,6 @@ Wire Wire Line
 Connection ~ 3250 2500
 Wire Wire Line
 	3250 2500 3250 2900
-Wire Wire Line
-	1500 3200 1650 3200
-Wire Wire Line
-	950  3200 1650 3200
 NoConn ~ 4250 3500
 NoConn ~ 4250 3800
 NoConn ~ 4250 3900
@@ -247,4 +243,8 @@ NoConn ~ 2550 3900
 NoConn ~ 2550 3500
 NoConn ~ 2550 3400
 NoConn ~ 2550 3300
+Wire Wire Line
+	1500 3200 1650 3200
+Wire Wire Line
+	950  3200 1650 3200
 $EndSCHEMATC

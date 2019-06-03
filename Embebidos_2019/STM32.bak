@@ -849,23 +849,23 @@ Wire Wire Line
 Wire Wire Line
 	6550 5700 6150 5700
 Text Label 6550 5800 0    50   ~ 0
-PC3
-Text Label 6550 5900 0    50   ~ 0
-PC2
-Text Label 6550 6100 0    50   ~ 0
 PC4
+Text Label 6550 5900 0    50   ~ 0
+PC1
+Text Label 6550 6100 0    50   ~ 0
+PC2
 Text Label 6550 6200 0    50   ~ 0
-PC5
-Text Label 6550 6300 0    50   ~ 0
 PC6
+Text Label 6550 6300 0    50   ~ 0
+PC3
 Text Label 6550 6400 0    50   ~ 0
-PC7
+PC10
 Text Label 6550 6500 0    50   ~ 0
-PC8
+PC7
 Text Label 6550 6600 0    50   ~ 0
 PC9
 Text Label 6550 6700 0    50   ~ 0
-PC10
+PC8
 Wire Wire Line
 	6550 5800 6150 5800
 Wire Wire Line
@@ -1340,5 +1340,5 @@ $EndComp
 Text Label 6550 5700 0    50   ~ 0
 PC0
 Text Label 6550 6000 0    50   ~ 0
-PC1
+PC5
 $EndSCHEMATC
