@@ -1317,14 +1317,6 @@ F 3 "~" H 6500 5400 50  0001 C CNN
 	1    6500 5400
 	0    -1   -1   0   
 $EndComp
-Wire Bus Line
-	10150 4950 10150 5250
-Wire Bus Line
-	9750 1900 9750 2300
-Wire Bus Line
-	9700 2600 9700 3000
-Wire Bus Line
-	9550 650  9550 1450
 NoConn ~ 6150 5600
 $Comp
 L Connector:Conn_01x14_Male J5
@@ -1341,4 +1333,12 @@ Text Label 6550 5700 0    50   ~ 0
 PC0
 Text Label 6550 6000 0    50   ~ 0
 PC5
+Wire Bus Line
+	10150 4950 10150 5250
+Wire Bus Line
+	9750 1900 9750 2300
+Wire Bus Line
+	9700 2600 9700 3000
+Wire Bus Line
+	9550 650  9550 1450
 $EndSCHEMATC

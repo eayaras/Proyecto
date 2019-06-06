@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:Embebidos_2019-cache
 EELAYER 29 0
 EELAYER END
@@ -766,8 +766,5 @@ $EndComp
 Wire Wire Line
 	3400 8350 3400 8550
 Wire Wire Line
-	4350 8550 5000 8550
-Connection ~ 5000 8550
-Wire Wire Line
-	5000 8550 5450 8550
+	4350 8550 5450 8550
 $EndSCHEMATC
