@@ -1,0 +1,152 @@
+Updated SP0502BAHT from D4 to D2
+Updated 100nF from C7 to C49
+Updated 100 nF from C8 to C50
+Updated 100 nF from C9 to C51
+Updated 100 nF from C10 to C52
+Updated 1 uF from C11 to C53
+Updated 100 nF from C12 to C54
+Updated 100 nF from C13 to C55
+Updated 4.7 uF from C14 to C56
+Updated 1N4733AW from D3 to D1
+Updated 0.1 uF from C6 to C48
+Updated LED from D5 to D3
+Updated LED from D1 to D4
+Updated LED from D2 to D5
+Updated A106614-ND from J2 to J1
+Updated A128518-ND from J3 to J2
+Updated USB_A from J4 to J3
+Updated Barrel_Jack_Switch from J5 to J4
+Updated Conn_01x14_Male from J1 to J5
+Updated 2.2uF from C53 to C39
+Updated 1uF from C44 to C30
+Updated 220uF from C45 to C31
+Updated 0.1uF from C46 to C32
+Updated 0.1uF from C47 to C33
+Updated 0.1uF from C48 to C34
+Updated 33uF from C49 to C35
+Updated 33uF from C50 to C36
+Updated 0.01uF from C51 to C37
+Updated 1nF from C52 to C38
+Updated SRF2012-900YA from L2 to L1
+Updated 10uF from C54 to C40
+Updated 10uF from C55 to C41
+Updated 0.1uF from C56 to C42
+Updated 6 pF from C1 to C43
+Updated 6 pF from C2 to C44
+Updated 10 pF from C3 to C45
+Updated 10 pF from C4 to C46
+Updated 2.2 uF from C5 to C47
+Updated 0k from R2 to R26
+Updated 100 from R25 to R17
+Updated 100 from R26 to R18
+Updated 10K from R27 to R19
+Updated 0K from R28 to R20
+Updated 0K from R29 to R21
+Updated 46.4 K from R30 to R22
+Updated 30.9 K from R31 to R23
+Updated 2k from R32 to R24
+Updated 1k from R1 to R25
+Updated 100 from R24 to R16
+Updated 0k from R3 to R27
+Updated 10k from R4 to R28
+Updated 1k from R5 to R29
+Updated 1k from R6 to R30
+Updated 1k from R7 to R31
+Updated 1k from R8 to R32
+Annotated ADS1292R-TQFP as U1
+Updated STM32F412RETx from U1 to U6
+Updated 10 M (1%) from R15 to R7
+Updated 742792651 from L3 to L2
+Updated 3.3 uH from L4 to L3
+Updated L from L1 to L4
+Updated 100 K from R9 to R1
+Updated 0R from R10 to R2
+Updated 10 M (1%) from R11 to R3
+Updated 10 M (1%) from R12 to R4
+Updated 100 K from R13 to R5
+Updated 1 M from R14 to R6
+Updated 33uF from C43 to C29
+Updated 10 M (1%) from R16 to R8
+Updated 100 K from R17 to R9
+Updated 100 K from R18 to R10
+Updated 100 K from R19 to R11
+Updated 51 K from R20 to R12
+Updated 51 K from R21 to R13
+Updated 10k from R22 to R14
+Updated 100 from R23 to R15
+Updated Earth from #PWR0148 to #PWR030
+Updated Earth from #PWR0145 to #PWR021
+Updated Earth from #PWR0134 to #PWR022
+Updated Earth from #PWR0136 to #PWR023
+Updated Earth from #PWR0140 to #PWR024
+Updated Earth from #PWR0133 to #PWR025
+Updated Earth from #PWR0146 to #PWR026
+Updated Earth from #PWR0135 to #PWR027
+Updated Earth from #PWR0139 to #PWR028
+Updated Earth from #PWR0147 to #PWR029
+Updated Earth from #PWR0141 to #PWR020
+Updated +5V from #PWR0131 to #PWR031
+Updated GND from #PWR0132 to #PWR032
+Updated Earth from #PWR0107 to #PWR033
+Updated Earth from #PWR0105 to #PWR034
+Updated Earth from #PWR0110 to #PWR035
+Updated Earth from #PWR0106 to #PWR036
+Updated Earth from #PWR0112 to #PWR037
+Updated Earth from #PWR0108 to #PWR038
+Updated GND from #PWR0125 to #PWR011
+Updated Earth from #PWR0117 to #PWR02
+Updated Earth from #PWR0119 to #PWR03
+Updated Earth from #PWR0120 to #PWR04
+Updated Earth from #PWR0121 to #PWR05
+Updated GND from #PWR0130 to #PWR06
+Updated GND from #PWR0128 to #PWR07
+Updated GND from #PWR0122 to #PWR08
+Updated GND from #PWR0123 to #PWR09
+Updated GND from #PWR0124 to #PWR010
+Updated Earth from #PWR0109 to #PWR039
+Updated GND from #PWR0127 to #PWR012
+Updated GND from #PWR0129 to #PWR013
+Updated GND from #PWR0126 to #PWR014
+Updated Earth from #PWR0143 to #PWR015
+Updated Earth from #PWR0138 to #PWR016
+Updated Earth from #PWR0142 to #PWR017
+Updated Earth from #PWR0144 to #PWR018
+Updated Earth from #PWR0137 to #PWR019
+Updated 0.1 uF from C34 to C20
+Updated 4.7 nF from C25 to C11
+Updated 4.7 nF from C26 to C12
+Updated 2.2 nF from C27 to C13
+Updated 1.5 nF from C28 to C14
+Updated 2.2 nF from C29 to C15
+Updated 2.2 nF from C30 to C16
+Updated 2.2 nF from C31 to C17
+Updated 0.1 uF from C32 to C18
+Updated 0.1 uF from C33 to C19
+Updated 1 uF from C24 to C10
+Updated 0.1 uF from C35 to C21
+Updated 0.1uF from C36 to C22
+Updated 0.1uF from C37 to C23
+Updated 22uF from C38 to C24
+Updated 0.1uF from C39 to C25
+Updated 0.1uF from C40 to C26
+Updated 10uF from C41 to C27
+Updated 33uF from C42 to C28
+Updated 0.1 uF from C15 to C1
+Updated Earth from #PWR0111 to #PWR040
+Updated Earth from #PWR0104 to #PWR041
+Updated Earth from #PWR0101 to #PWR042
+Updated Earth from #PWR0103 to #PWR043
+Updated Earth from #PWR0102 to #PWR044
+Updated Earth from #PWR0115 to #PWR045
+Updated Earth from #PWR0113 to #PWR046
+Updated Earth from #PWR0116 to #PWR047
+Updated Earth from #PWR0114 to #PWR048
+Updated Earth from #PWR0118 to #PWR01
+Updated 1 uF from C16 to C2
+Updated 0.1 uF from C17 to C3
+Updated 0.1 uF from C18 to C4
+Updated 0.1 uF from C19 to C5
+Updated 1 uF from C20 to C6
+Updated 1 uF from C21 to C7
+Updated 1 uF from C22 to C8
+Updated 10 uF from C23 to C9

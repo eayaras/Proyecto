@@ -1,0 +1,42 @@
+EESchema Schematic File Version 5
+LIBS:Embebidos_2019-cache
+LIBS:Ganglion_01-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2800 3450 500  150 
+U 5CD89945
+F0 "omega2" 50
+F1 "omega2.sch" 50
+$EndSheet
+$Sheet
+S 5450 3600 500  150 
+U 5CD89951
+F0 "stm32" 50
+F1 "stm32.sch" 50
+$EndSheet
+$Sheet
+S 5100 2250 500  150 
+U 5CD8995C
+F0 "mcp3912" 50
+F1 "mcp3912.sch" 50
+$EndSheet
+$Sheet
+S 6750 2800 500  150 
+U 5CD8996E
+F0 "bluetooh" 50
+F1 "bluetooth.sch" 50
+$EndSheet
+$EndSCHEMATC

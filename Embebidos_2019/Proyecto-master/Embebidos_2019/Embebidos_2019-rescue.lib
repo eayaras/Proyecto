@@ -1,0 +1,475 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +5V-power-pcb_embedded_systems-rescue
+#
+DEF +5V-power-pcb_embedded_systems-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-power-pcb_embedded_systems-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Barrel_Jack_Switch-Connector-pcb_embedded_systems-rescue
+#
+DEF Barrel_Jack_Switch-Connector-pcb_embedded_systems-rescue J 0 20 Y N 1 F N
+F0 "J" 0 210 50 H V C CNN
+F1 "Barrel_Jack_Switch-Connector-pcb_embedded_systems-rescue" 0 -200 50 H V C CNN
+F2 "" 50 -40 50 H I C CNN
+F3 "" 50 -40 50 H I C CNN
+$FPLIST
+ BarrelJack*
+$ENDFPLIST
+DRAW
+A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
+A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
+S -200 150 200 -150 0 1 10 f
+S 145 125 -130 75 0 1 10 F
+P 2 0 1 10 50 -90 75 -65 N
+P 2 0 1 10 200 100 150 100 N
+P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
+P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
+X ~ 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C-Device-pcb_embedded_systems-rescue
+#
+DEF C-Device-pcb_embedded_systems-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C-Device-pcb_embedded_systems-rescue" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C-Ganglion_01-rescue
+#
+DEF C-Ganglion_01-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C-Ganglion_01-rescue" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 40 40 1 1 P
+X ~ 2 0 -150 110 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_01X04-Ganglion_01-rescue
+#
+DEF CONN_01X04-Ganglion_01-rescue P 0 40 Y N 1 F N
+F0 "P" 0 250 50 H V C CNN
+F1 "CONN_01X04-Ganglion_01-rescue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X04
+ Pin_Header_Angled_1X04
+ Socket_Strip_Straight_1X04
+ Socket_Strip_Angled_1X04
+$ENDFPLIST
+DRAW
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 200 50 -200 0 1 0 N
+X P1 1 -200 150 150 R 50 50 1 1 P
+X P2 2 -200 50 150 R 50 50 1 1 P
+X P3 3 -200 -50 150 R 50 50 1 1 P
+X P4 4 -200 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_01X08-Ganglion_01-rescue
+#
+DEF CONN_01X08-Ganglion_01-rescue P 0 40 Y N 1 F N
+F0 "P" 0 450 50 H V C CNN
+F1 "CONN_01X08-Ganglion_01-rescue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X08
+ Pin_Header_Angled_1X08
+ Socket_Strip_Straight_1X08
+ Socket_Strip_Angled_1X08
+$ENDFPLIST
+DRAW
+S -50 -400 50 400 0 1 0 N
+S -50 -345 10 -355 0 1 0 N
+S -50 -245 10 -255 0 1 0 N
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 255 10 245 0 1 0 N
+S -50 355 10 345 0 1 0 N
+X P1 1 -200 350 150 R 50 50 1 1 P
+X P2 2 -200 250 150 R 50 50 1 1 P
+X P3 3 -200 150 150 R 50 50 1 1 P
+X P4 4 -200 50 150 R 50 50 1 1 P
+X P5 5 -200 -50 150 R 50 50 1 1 P
+X P6 6 -200 -150 150 R 50 50 1 1 P
+X P7 7 -200 -250 150 R 50 50 1 1 P
+X P8 8 -200 -350 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_02X08-Ganglion_01-rescue
+#
+DEF CONN_02X08-Ganglion_01-rescue P 0 1 Y N 1 F N
+F0 "P" 0 450 50 H V C CNN
+F1 "CONN_02X08-Ganglion_01-rescue" 0 0 50 V V C CNN
+F2 "" 0 -1200 50 H V C CNN
+F3 "" 0 -1200 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_2X08
+ Pin_Header_Angled_2X08
+ Socket_Strip_Straight_2X08
+ Socket_Strip_Angled_2X08
+$ENDFPLIST
+DRAW
+S -100 -345 -50 -355 0 1 0 N
+S -100 -245 -50 -255 0 1 0 N
+S -100 -145 -50 -155 0 1 0 N
+S -100 -45 -50 -55 0 1 0 N
+S -100 55 -50 45 0 1 0 N
+S -100 155 -50 145 0 1 0 N
+S -100 255 -50 245 0 1 0 N
+S -100 355 -50 345 0 1 0 N
+S -100 400 100 -400 0 1 0 N
+S 50 -345 100 -355 0 1 0 N
+S 50 -245 100 -255 0 1 0 N
+S 50 -145 100 -155 0 1 0 N
+S 50 -45 100 -55 0 1 0 N
+S 50 55 100 45 0 1 0 N
+S 50 155 100 145 0 1 0 N
+S 50 255 100 245 0 1 0 N
+S 50 355 100 345 0 1 0 N
+X P1 1 -250 350 150 R 50 50 1 1 P
+X P10 10 250 -50 150 L 50 50 1 1 P
+X P11 11 -250 -150 150 R 50 50 1 1 P
+X P12 12 250 -150 150 L 50 50 1 1 P
+X P13 13 -250 -250 150 R 50 50 1 1 P
+X P14 14 250 -250 150 L 50 50 1 1 P
+X P15 15 -250 -350 150 R 50 50 1 1 P
+X P16 16 250 -350 150 L 50 50 1 1 P
+X P2 2 250 350 150 L 50 50 1 1 P
+X P3 3 -250 250 150 R 50 50 1 1 P
+X P4 4 250 250 150 L 50 50 1 1 P
+X P5 5 -250 150 150 R 50 50 1 1 P
+X P6 6 250 150 150 L 50 50 1 1 P
+X P7 7 -250 50 150 R 50 50 1 1 P
+X P8 8 250 50 150 L 50 50 1 1 P
+X P9 9 -250 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x03-Connector_Generic-pcb_embedded_systems-rescue
+#
+DEF Conn_01x03-Connector_Generic-pcb_embedded_systems-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x03-Connector_Generic-pcb_embedded_systems-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Crystal_Small-Ganglion_01-rescue
+#
+DEF Crystal_Small-Ganglion_01-rescue Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "Crystal_Small-Ganglion_01-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Crystal_
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 0 -50 -30 -50 30 N
+P 2 0 1 0 50 -30 50 30 N
+X 1 1 -100 0 50 R 40 40 1 1 P
+X 2 2 100 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Schottky-Ganglion_01-rescue
+#
+DEF D_Schottky-Ganglion_01-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky-Ganglion_01-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ D-Pak_TO252AA
+ Diode_*
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 50 50 -50 0 50 -50 F
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Schottky_ALT-Device-pcb_embedded_systems-rescue
+#
+DEF D_Schottky_ALT-Device-pcb_embedded_systems-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky_ALT-Device-pcb_embedded_systems-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-power-pcb_embedded_systems-rescue
+#
+DEF GND-power-pcb_embedded_systems-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-pcb_embedded_systems-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDA-power1
+#
+DEF GNDA-power1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GNDA-power1" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# L-Device-pcb_embedded_systems-rescue
+#
+DEF L-Device-pcb_embedded_systems-rescue L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L-Device-pcb_embedded_systems-rescue" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED-Ganglion_01-rescue
+#
+DEF LED-Ganglion_01-rescue D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED-Ganglion_01-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
+P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -200 0 150 R 40 40 1 1 P
+X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-Device-pcb_embedded_systems-rescue
+#
+DEF R-Device-pcb_embedded_systems-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-Device-pcb_embedded_systems-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-Ganglion_01-rescue
+#
+DEF R-Ganglion_01-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-Ganglion_01-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SP0502BAHT-Power_Protection-pcb_embedded_systems-rescue
+#
+DEF SP0502BAHT-Power_Protection-pcb_embedded_systems-rescue D 0 40 Y N 1 F N
+F0 "D" 225 100 50 H V L CNN
+F1 "SP0502BAHT-Power_Protection-pcb_embedded_systems-rescue" 225 25 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 225 -50 50 H I L CNN
+F3 "" 125 125 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -175 100 175 -100 0 1 10 f
+P 2 0 1 0 -100 100 -100 50 N
+P 2 0 1 0 0 -50 0 -100 N
+P 2 0 1 0 100 100 100 50 N
+P 4 0 1 0 -150 75 -125 50 -75 50 -50 25 N
+P 4 0 1 0 -100 50 -100 -50 100 -50 100 50 N
+P 4 0 1 0 -100 50 -75 0 -125 0 -100 50 N
+P 4 0 1 0 50 75 75 50 125 50 150 25 N
+P 4 0 1 0 100 50 75 0 125 0 100 50 N
+X A 3 0 -200 100 U 50 50 0 0 I
+X K 1 -100 200 100 D 50 50 1 1 I
+X K 2 100 200 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# USB_A-Connector-pcb_embedded_systems-rescue
+#
+DEF USB_A-Connector-pcb_embedded_systems-rescue J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "USB_A-Connector-pcb_embedded_systems-rescue" -200 350 50 H V L CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -60 190 -170 210 0 1 0 F
+S -50 180 -180 230 0 1 0 N
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 2 1 1 10 -75 85 25 85 N
+X VBUS 1 300 200 100 L 50 50 1 1 W
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X GND 4 0 -400 100 U 50 50 1 1 W
+X Shield 5 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VAA-power1
+#
+DEF VAA-power1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VAA-power1" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VAA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# VDD-power1
+#
+DEF VDD-power1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VDD-power1" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
